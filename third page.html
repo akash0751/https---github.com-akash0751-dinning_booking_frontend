@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="thirdpage.css">
+    <title>Food Ordering System</title>
+</head>
+<body>
+    <header>
+        <h1>Food Menu</h1>
+    </header>
+    
+    <div id="menu-container">
+        <div class="menu-item" onclick="addToCart('Burger', 5.99)">
+            <img src="burger.jpg" alt="Burger">
+            <h3>Burger</h3>
+            <p>$5.99</p>
+        </div>
+
+        <div class="menu-item" onclick="addToCart('Pizza', 8.99)">
+            <img src="pizza.jpg" alt="Pizza">
+            <h3>Pizza</h3>
+            <p>$8.99</p>
+        </div>
+
+        <div class="menu-item" onclick="addToCart('Salad', 4.99)">
+            <img src="salad.jpg" alt="Salad">
+            <h3>Salad</h3>
+            <p>$4.99</p>
+        </div>
+
+        <div class="menu-item" onclick="addToCart('Chicken 65', 4.99)">
+            <img src="chicken65.jpg" alt="chicken65">
+            <h3>Chicken 65</h3>
+            <p>$5.99</p>
+        </div>
+
+        <div class="menu-item" onclick="addToCart('Noodles', 4.99)">
+            <img src="noodles.jpg" alt="noodles">
+            <h3>Noodles</h3>
+            <p>$4.99</p>
+        </div>
+
+        <div class="menu-item" onclick="addToCart('chickenbriyani', 4.99)">
+            <img src="chickenbriyani.jpg" alt="chickenbriyani">
+            <h3>Chicken Briyani</h3>
+            <p>$4.99</p>
+        </div>
+
+    </div>
+
+    <div id="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p id="total">Total: $0.00</p>
+        <button onclick="checkout()"><a href="payment.html">Checkout</a></button>
+    </div>
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
+

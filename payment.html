@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="payment.css">
+    <title>Payment Options</title>
+</head>
+<body>
+    <header>
+        <h1>Payment Options</h1>
+    </header>
+
+    <div id="payment-form">
+        <form>
+            <label for="card-number">Card Number:</label>
+            <input type="text" id="card-number" name="card-number" placeholder="**** **** **** ****" required>
+
+            <label for="expiry">Expiry Date:</label>
+            <input type="text" id="expiry" name="expiry" placeholder="MM/YY" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="***" required>
+
+            <label for="name">Cardholder Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <button type="button" onclick="submitForm()"><a href="ordered.html">Make Payment</a></button>
+        </form>
+
+        <div id="payment-status">
+            <p id="status-message">Please enter your payment details and click "Make Payment."</p>
+        </div>
+    </div>
+
+    <script src="payment.js"></script>
+
+    
+</body>
+</html>
+

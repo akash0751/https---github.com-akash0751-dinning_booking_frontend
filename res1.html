@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Restaurant Menu</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 2em auto;
+        padding: 1em;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .menu-item {
+        border-bottom: 1px solid #ccc;
+        padding: 1em 0;
+    }
+    button {
+        padding: 0.5em 1em;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #555;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <h1>Our Restaurant</h1>
+    </header>
+    <div class="container">
+        <h2>Menu</h2>
+        <div class="menu-item">
+            <h3>Appetizers</h3>
+            <p>Delicious appetizers to start your meal.</p>
+            <button onclick="order('Appetizers')">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <h3>Main Course</h3>
+            <p>Hearty main courses for a satisfying meal.</p>
+            <button onclick="order('Main Course')">Order Now</button>
+        </div>
+        <div class="menu-item">
+            <h3>Desserts</h3>
+            <p>Decadent desserts to finish your meal.</p>
+            <button onclick="order('Desserts')">Order Now</button>
+        </div>
+    </div>
+    <script>
+        function order(category) {
+            alert('You have selected ' + category + '. Please check your order summary.');
+            // Here, you can add more logic for handling the order, e.g., adding to a shopping cart.
+        }
+    </script>
+</body>
+</html>
+

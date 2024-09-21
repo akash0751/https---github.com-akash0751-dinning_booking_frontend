@@ -1,0 +1,18 @@
+.name{
+    text-align: center;
+    background-color: white;
+    padding: 100px;
+
+}
+
+input{
+    color: aqua;
+    background-color:greenyellow;
+    margin: 20px;
+    border-radius: 100px;
+    border: 100px;
+}
+
+:-ms-input-placeholder{
+    text-align: center;
+}

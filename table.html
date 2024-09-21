@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="table.css">
+    <title>Table Booking System</title>
+</head>
+<body>
+    <header>
+        <h1>Table Booking</h1>
+    </header>
+
+    <div id="table-container">
+        <div class="table" onclick="bookTable(1)">
+            <img src="table1.jpg" alt="Table 1">
+            <p>Table 1</p>
+        </div>
+
+        <div class="table" onclick="bookTable(2)">
+            <img src="table2.jpg" alt="Table 2">
+            <p>Table 2</p>
+        </div>
+
+        <div class="table" onclick="bookTable(3)">
+            <img src="table3.jpg" alt="Table 3">
+            <p>Table 3</p>
+        </div>
+    </div>
+
+    <div id="booking-status">
+        <p id="status-message">Select a table to book.</p>
+    </div>
+
+    <script src="table.js"></script>
+</body>
+
+<div class="button">
+    <a href="app page.html">Cancel</a>
+    <a href="table2.html">Next</a>
+</div>
+</html>
+

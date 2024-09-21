@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+h1{
+    background-color: orange;
+    padding: 14px;
+    text-align: center;
+
+    display: block;
+    text-align: center;
+    
+}
+
+nav{
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+h2,li,ul{
+    display: inline;
+    cursor: pointer;
+}
+ ul{
+    margin-left: 70%;
+ }
+ li:hover{
+    color: blue;
+ }
+ input{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 500px;
+ }
+ .searchbox{
+    padding: 2px;
+    text-align: center;
+    display: inline-block;
+ }
+    
+ 
+
+ .box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display:inline-block;
+    margin: 40px;
+    padding:60px;
+
+    text-align: center;
+    width:220px;
+ }
+ .p{
+    margin-top: 10px;
+    
+ }
+ .product{
+    text-align: center;
+ }
+ h3{
+    background-color: orange;
+    padding: 14px;
+    text-align: center;
+
+    display: block; 
+ }
+ h2{
+    text-align: center;
+ }
+ 
+  

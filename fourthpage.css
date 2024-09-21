@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+h1{
+    background-color: orange;
+    padding: 14px;
+    text-align: center;
+
+    display: block;
+    text-align: center;
+    
+}
+
+.box{
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display:inline-block;
+    margin: 70px;
+    padding:60px;
+    text-align: center;
+    width:220px;
+    display: center;
+ }
+ input{
+    margin-top: 10px;
+    margin-left: 600px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    
+ }
+ .searchbox{
+    padding: 2px;
+    text-align: center;
+ }

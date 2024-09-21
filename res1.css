@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+.restaurant-details {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.menu-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}

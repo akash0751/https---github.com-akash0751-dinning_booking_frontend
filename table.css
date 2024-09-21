@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#table-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.table {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.table:hover {
+    transform: scale(1.05);
+}
+
+.table img {
+    width: 300px;
+    border-radius: 8px;
+}
+
+#booking-status {
+    text-align: center;
+    margin: 20px;
+}
+
+#status-message {
+    font-size: 18px;
+    color: #333;
+}
+
+a{
+    margin: 40px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+ margin-left: 300px;
+ font-size: larger;
+  }

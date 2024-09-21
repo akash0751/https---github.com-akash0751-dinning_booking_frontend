@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UPI Payment for Food Ordering</title>
+<link rel="stylesheet" href="pay.css">
+</head>
+<body>
+<div class="container">
+  <h1>Food Ordering UPI Payment</h1>
+  <div class="payment-form">
+    <label for="amount">Amount (₹):</label>
+    <input type="number" id="amount" placeholder="Enter amount">
+    <button onclick="initiatePayment()">Pay Now</button>
+    <div id="payment-status"></div>
+  </div>
+</div>
+<script src="pay.js"></script>
+</body>
+</html>
